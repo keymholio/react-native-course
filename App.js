@@ -6,10 +6,13 @@ import Course from "./components/Course";
 import { Icon } from "expo";
 import { NotificationIcon } from "./components/Icons";
 import Logo from "./components/Logo";
+import Menu from "./components/Menu";
+
 export default class App extends React.Component {
   render() {
     return (
       <Container>
+        <Menu />
         <SafeAreaView>
           <ScrollView style={{ height: "100%" }}>
             <TitleBar>
